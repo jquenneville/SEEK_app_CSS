@@ -23,7 +23,16 @@ div#box2 {
 	float: left;
 }
 
-
+.boxIndigo {
+	height: 800px;
+	width: 100%;
+	background-color: #4957A4;
+}
+.boxIndigo img {
+	position: absolute;
+	top: 25%;
+	left: 40%;
+}
 
 
 div#box4 {
