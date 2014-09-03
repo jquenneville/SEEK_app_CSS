@@ -8,11 +8,24 @@ div#box2 {
     width: 100%;
     background-color: #6BA9D8;
 }
-div#box3 {
+.buttonbox {
     height: 58px;
     width: 100%;
     background-color: #F7991C;
 }
+.button1 {
+	float: left;
+}
+.button2 {
+	float: left;
+}
+.button3 {
+	float: left;
+}
+
+
+
+
 div#box4 {
     height: 58px;
     width: 100%;
@@ -47,7 +60,7 @@ p {
     font-size: 1.5em;
     color: white;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 15px;
     margin: 0px;
 }
 .box-shadow-menu {
