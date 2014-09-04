@@ -1,0 +1,92 @@
+div#box1 {
+    height: 44px;
+    width: 100%;
+    background-color: #0168A9;
+}
+div#box2 {
+    height: 58px;
+    width: 100%;
+    background-color: #6BA9D8;
+}
+.buttonbox {
+    height: 58px;
+    width: 100%;
+    background-color: #F7991C;
+}
+.button1 {
+	float: left;
+}
+.button2 {
+	float: left;
+}
+.button3 {
+	float: left;
+}
+
+.boxIndigo {
+	height: 800px;
+	width: 100%;
+	background-color: #4957A4;
+	border
+border: 20px solid #dbc6c6;
+}
+.boxIndigo img {
+	position: absolute;
+	top: 25%;
+	left: 40%;
+}
+
+
+div#box4 {
+    height: 58px;
+    width: 100%;
+    background-color: #6BA9D8;
+}
+div#box5 {
+    height: 58px;
+    width: 100%;
+    background-color: #478AC9;
+}
+div#box6 {
+    height: 58px;
+    width: 100%;
+    background-color:#6BA9D8;
+}
+div#box7 {
+    height: 58px;
+    width: 100%;
+    background-color: #F7991C;
+}
+
+h1 {
+    font-family: 'Vibur', cursive;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    margin: 0px;
+}
+p {
+    font-family: verdana-light, helvetica; sans-serif;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0px;
+}
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: white;
+  box-shadow: 
+    0 0.25em 0 0 white,
+    0 0.5em 0 0 white;
+}
