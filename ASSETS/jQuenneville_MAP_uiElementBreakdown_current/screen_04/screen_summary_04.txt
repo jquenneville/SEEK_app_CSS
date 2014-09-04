@@ -6,10 +6,25 @@ width and height
 animation
 font
 active/inactive state 
-
+W	H	R	X	Y	HEX:#	FONT:
 -----------screen_summary_04—————
-background:	#4A58A4
-images:		welcome_graphic@2x.png
-			W1058	H1536
-			Left top corner:	X496px	Y0px
-buttons: press center
+background:	
+	#4A58A4
+*divide by twoooo*
+css @2x:		
+	header bar:
+		W2048	H196
+	hamburger:	
+		WHR	X50px	Y88px	HEX:#F2F2F2
+	password-field:
+		W1118	H270	R135	X562	Y667	HEX:#F2F2F2	FONT:OS
+		
+images:		
+	lock-icon:
+		W131	H193	R	X390	Y700	HEX:#F2F2F2
+	peeking-graphic:
+		W806	H485	R	X55	Y1052	
+buttons:
+	OK-button:
+		W464	H244	R	X1215	Y1024
+
