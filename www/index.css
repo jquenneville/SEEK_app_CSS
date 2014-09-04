@@ -27,6 +27,8 @@ div#box2 {
 	height: 800px;
 	width: 100%;
 	background-color: #4957A4;
+	border
+border: 20px solid #dbc6c6;
 }
 .boxIndigo img {
 	position: absolute;
