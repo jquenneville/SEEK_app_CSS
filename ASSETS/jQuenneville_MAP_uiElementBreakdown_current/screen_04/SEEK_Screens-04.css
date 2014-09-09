@@ -90,3 +90,27 @@ p {
     0 0.25em 0 0 white,
     0 0.5em 0 0 white;
 }
+
+.myButton {
+	-moz-box-shadow: 13px 13px 0px 0px #3dc21b;
+	-webkit-box-shadow: 13px 13px 0px 0px #3dc21b;
+	box-shadow: 13px 13px 0px 0px #3dc21b;
+	background-color:#44c767;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Vibur;
+	font-size:28px;
+	padding:32px 76px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
