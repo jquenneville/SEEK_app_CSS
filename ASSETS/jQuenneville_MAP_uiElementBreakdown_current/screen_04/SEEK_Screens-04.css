@@ -1,66 +1,9 @@
-div#box1 {
-    height: 44px;
-    width: 100%;
-    background-color: #0168A9;
-}
-div#box2 {
-    height: 58px;
-    width: 100%;
-    background-color: #6BA9D8;
-}
-.buttonbox {
-    height: 58px;
-    width: 100%;
-    background-color: #F7991C;
-}
-.button1 {
-	float: left;
-}
-.button2 {
-	float: left;
-}
-.button3 {
-	float: left;
-}
-
-.boxIndigo {
-	height: 800px;
-	width: 100%;
-	background-color: #4957A4;
-	border
-border: 20px solid #dbc6c6;
-}
-.boxIndigo img {
-	position: absolute;
-	top: 25%;
-	left: 40%;
-}
-
-
-div#box4 {
-    height: 58px;
-    width: 100%;
-    background-color: #6BA9D8;
-}
-div#box5 {
-    height: 58px;
-    width: 100%;
-    background-color: #478AC9;
-}
-div#box6 {
-    height: 58px;
-    width: 100%;
-    background-color:#6BA9D8;
-}
-div#box7 {
-    height: 58px;
-    width: 100%;
-    background-color: #F7991C;
-}
-
+/*----------------------------------------------------------------------------
+    GLOBAL Attributes 
+----------------------------------------------------------------------------*/
 h1 {
     font-family: 'Vibur', cursive;
-    font-size: 2em;
+    font-size: 4.188em;
     color: white;
     text-align: center;
     padding-top: 2px;
@@ -91,6 +34,56 @@ p {
     0 0.5em 0 0 white;
 }
 
+/*----------------------------------------------------------------------------
+    HEADER BOX
+----------------------------------------------------------------------------*/
+div#header-box {
+    height: 78px;
+    width: 100%;
+    background-color: #0168A9;
+}
+div#header-box h1{
+  font-size: 4.188em;
+}
+/*----------------------------------------------------------------------------
+    BODY BOX
+----------------------------------------------------------------------------*/
+div#body-box {
+    height: 672px;
+    width: 100%;
+    background-color: #4A58A4;
+}
+
+div#body-box img {
+  position: absolute;
+  margin-left: 195px;
+  margin-top: 350px;
+}
+.password-field {
+  background-color: #F2F2F2;
+/*  height: 135px;
+  width: 555px;*/
+  border-radius: 65px;
+  -moz-border-radius: 65px;
+  -webkit-border-radius: 65px;
+
+  display:inline-block;
+  cursor:pointer;
+  color:#6CA6D6;
+  font-family: verdana-light, helvetica; sans-serif;
+  font-size: 45px;
+  padding: 40px;
+  text-decoration:none;
+  margin-left: 280px; 
+  margin-top: 315px;
+  position: absolute;
+}
+
+
+/*----------------------------------------------------------------------------
+    imported
+----------------------------------------------------------------------------*/
+
 .myButton {
 	-moz-box-shadow: 13px 13px 0px 0px #3dc21b;
 	-webkit-box-shadow: 13px 13px 0px 0px #3dc21b;
@@ -114,3 +107,7 @@ p {
 	position:relative;
 	top:1px;
 }
+
+/*----------------------------------------------------------------------------
+    ??????
+----------------------------------------------------------------------------*/
